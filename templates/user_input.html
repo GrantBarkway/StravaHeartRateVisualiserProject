@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Input</title>
+</head>
+<body>
+    <h1>Strava Heartrate Grapher</h1>
+    
+    <!-- Form for user input -->
+    <form action="/process" method="post">
+        <label for="max_hr_input">Max Heartrate:</label>
+        <input type="text" id="max_hr_input" name="max_hr_input" required>
+        <br>
+        <label for="number_of_activities_input">Number of Activities:</label>
+        <input type="text" id="number_of_activities_input" name="number_of_activities_input" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <hr>
+     
+</body>
+</html>

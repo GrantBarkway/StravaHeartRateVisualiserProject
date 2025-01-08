@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<h2>Activities:</h2>
+    <ul>
+        {% for activity in activities %}
+            <li>{{ activity }}</li>
+        {% endfor %}
+    </ul>
+    
+    <!-- Heartrate Graph-->
+     <h2>Heartrate Graph</h2>
+     <ul>
+        {{ graph | safe }}
+     </ul>
